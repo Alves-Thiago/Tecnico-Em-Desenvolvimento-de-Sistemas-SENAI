@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Inventário</title>
+  </head>
+  <body>
+    <h1>Cadastro de Inventário</h1>
+
+    <form>
+
+        <!-- Campo o Código de Barras do Produto -->
+      <label for="codigo">Código de Barras:</label>
+      <input type="text" id="codigo" name="codigo" required />
+      <br />
+      <br />
+
+        <!-- Campo do Setor -->
+      <label for="setor">Setor:</label>
+      <select name="setor" id="setor" required>
+        <option value="">Selecione o Setor</option>
+        <option value="docil">COLETA CENTRAL</option>
+        <option value="gentil">COLETA MOLECULAR</option>
+        <option value="serio">COMERCIAL</option>
+        <option value="modesto">COMPRAS</option>
+        <option value="calmo">DIRETORIA</option>
+        <option value="calmo">DP</option>
+        <option value="calmo">FATURAMENTO</option>
+        <option value="calmo">JURIDICO</option>
+        <option value="calmo">MARKETING</option>
+        <option value="calmo">MICROBIOLOGIA</option>
+        <option value="calmo">NTO BOM JESUS</option>
+        <option value="calmo">NTO GUARAPARI</option>
+        <option value="calmo">NTO ITAPERUNA</option>
+        <option value="calmo">QUALIDADE</option>
+        <option value="calmo">RECEPÇÃO AEROPORTO</option>
+        <option value="calmo">RECEPÇÃO BOM JESUS</option>
+        <option value="calmo">RECEPÇÃO CARDOSO</option>
+        <option value="calmo">RECEPÇÃO CENTRAL</option>
+        <option value="calmo">RECEPÇÃO CIDADE NOVA</option>
+        <option value="calmo">RECEPÇÃO CITOLOGIA</option>
+        <option value="calmo">RECEPÇÃO GUARAPARI</option>
+        <option value="calmo">RECEPÇÃO ITALVA</option>
+        <option value="calmo">RECEPÇÃO KIDS</option>
+        <option value="calmo">RECEPÇÃO MOLECULAR</option>
+        <option value="calmo">RECEPÇÃO NATIVIDADE</option>
+        <option value="calmo">RECEPÇÃO NITEROI</option>
+        <option value="calmo">RECEPÇÃO PORCIUNCULA</option>
+        <option value="calmo">RECEPÇÃO SÃO JOSÉ DE UBÁ</option>
+        <option value="calmo">RECEPÇÃO SANTO ANTONIO DE PADUA</option>
+        <option value="calmo">RECEPÇÃO SÃO JOSÉ DOS CALÇADOS</option>
+        <option value="calmo">RECEPÇÃO TOXICOLOGIA</option>
+        <option value="calmo">RECEPÇÃO VARRE SAI</option>
+        <option value="calmo">RECEPÇÃO VINHOSA</option>
+        <option value="calmo">REDES E TELECOMUNICAÇÕES</option>
+        <option value="calmo">RH</option>
+        <option value="calmo">SALA DE REUNIÕES</option>
+        <option value="calmo">TI</option>
+        <option value="calmo">VACINAÇÃO</option>
+      </select>
+        <br />
+        <br /> 
+
+        <!-- Tipo do Produto -->
+        <label for="tipo">Tipo do Produto:</label>
+        <input type="text" id="tipo" name="tipo" required />
+        <br />
+        <br />
+
+        <!--Marca-->
+        <label for="marca">Marca do Produto:</label>
+        <input type="text" id="marca" name="marca" required />
+        <br />
+        <br />
+
+        <!-- Campo do Nome do Produto -->
+        <label for="modelo">Modelo do Produto:</label>
+        <input type="text" id="modelo" name="modelo" required />
+        <br />
+        <br />
+
+        <!-- Número de Série -->
+        <label for="numero_serie">Número de Série:</label>
+        <input type="text" id="numero_serie" name="numero_serie" required />
+        <br />
+        <br />
+
+        <!-- Descrição do Produto  -->
+        <label for="descricao">Descrição do Produto:</label>
+        <textarea id="descricao" name="descricao" required></textarea>
+        <br />
+        <br />
+
+        <!-- Estado do Produto -->
+        <label for="estado">Estado do Produto:</label>
+        <select id="estado" name="estado" required>
+          <option value="novo">Novo</option>
+          <option value="usado">Usado</option>
+          <option value="defeito">Defeito</option>
+        </select>
+        <br />
+        <br />
+
+        <!-- Informação do Responsável -->
+        <label for="responsavel">Responsável:</label>
+        <input type="text" id="responsavel" name="responsavel" required />
+        <br />
+        <br />
+
+        <!-- Botão de Envio -->
+        <input type="submit" value="Cadastrar Produto" />
+
+    </form>
+  </body>
+</html>

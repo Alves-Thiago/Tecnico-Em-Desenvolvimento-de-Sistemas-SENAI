@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <h1>Formulário de Cadastro</h1>
+    <h3><p>Formulário para registro de novos pokémons.</p></h3>
+  </head>
+  <body>
+    <form>
+      <!-- Campo para o nome do Pokémon-->
+      <!-- Caixa de Texto Com Placeholder-->
+      <label for="nome">Nome do Novo Pokémon:</label>
+      <input type="text" placeholder="Digite o nome do pokémon." required />
+      <br />
+      <br />
+
+      <!-- Campo para o tipo do Pokémon-->
+      <!-- Escolha Única Com Botões de Rádio-->
+      <label for="sexo">Sexo do Pokémon:</label>
+      <br />
+      <input type="radio" name="sexo" id="masculino" value="masculino" />
+      <label for="masculino">Masculino</label>
+      <br />
+      <input type="radio" name="sexo" id="feminino" value="feminino" />
+      <label for="feminino">Feminino</label>
+      <br />
+      <input type="radio" name="sexo" id="indefinido" value="indefinido" />
+      <label for="indefinido">Indefinido</label>
+      <br />
+      <br />
+
+      <!-- Campo para o tipo do Pokémon-->
+      <!-- Múltipla Escolha Com Caixas de Seleção-->
+      <label for="tipo">Tipo do Pokémon:</label>
+      <br />
+      <input type="checkbox" name="tipo" id="fogo" value="fogo" />
+      <label for="fogo">Fogo</label>
+      <br />
+      <input type="checkbox" name="tipo" id="agua" value="agua" />
+      <label for="agua">Água</label>
+      <br />
+      <input type="checkbox" name="tipo" id="planta" value="planta" />
+      <label for="planta">Planta</label>
+      <br />
+      <input type="checkbox" name="tipo" id="eletrico" value="eletrico" />
+      <label for="eletrico">Elétrico</label>
+      <br />
+      <input type="checkbox" name="tipo" id="pedra" value="pedra" />
+      <label for="pedra">Pedra</label>
+      <br />
+      <input type="checkbox" name="tipo" id="fantasma" value="fantasma" />
+      <label for="fantasma">Fantasma</label>
+      <br />
+      <input type="checkbox" name="tipo" id="normal" value="normal" />
+      <label for="normal">Normal</label>
+      <br />
+      <br />
+
+      <!-- Campo para o nível do Pokémon-->
+      <!-- Level Com Controle Numérico -->
+      <label for="nivel">Nível do Pokémon:</label>
+      <input type="number" name="nivel" id="nivel" min="1" max="100" required />
+      <br />
+      <br />
+
+      <!-- Local de Captura-->
+      <!-- Caixa de Texto Com Placeholder -->
+      <label for="captura">Local de Captura:</label>
+      <input
+        type="text"
+        name="captura"
+        id="captura"
+        placeholder="Digite o local."
+        required
+      />
+      <br />
+      <br />
+
+      <!-- Natureza do Pokémon-->
+      <!-- Seleção Única Com Menu Suspenso -->
+      <label for="natureza">Natureza do Pokémon:</label>
+      <select name="natureza" id="natureza" required>
+        <option value="">Selecione a natureza</option>
+        <option value="docil">Docil</option>
+        <option value="gentil">Gentil</option>
+        <option value="serio">Serio</option>
+        <option value="modesto">Modesto</option>
+        <option value="calmo">Calmo</option>
+      </select>
+      <br />
+      <br />
+
+      <!-- Botão de envio do formulário-->
+      <!-- Botão de Submissão -->
+      <input type="submit" value="Cadastrar Pokémon" />
+      <br />
+      <br />
+
+      <!-- GIF-->
+      <div
+        class="tenor-gif-embed"
+        data-postid="20178372"
+        data-share-method="host"
+        data-aspect-ratio="3.48"
+        data-width="20%"
+      >
+        <a href="https://tenor.com/view/pokemon-pokeball-ball-gif-20178372"
+          >Pokemon Pokeball Sticker</a
+        >from
+        <a href="https://tenor.com/search/pokemon-stickers">Pokemon Stickers</a>
+      </div>
+      <script
+        type="text/javascript"
+        async
+        src="https://tenor.com/embed.js"
+      ></script>
+    </form>
+  </body>
+</html>
