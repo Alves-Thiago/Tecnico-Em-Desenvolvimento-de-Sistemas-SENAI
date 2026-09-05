@@ -1,55 +1,70 @@
-* {
-    background-color: antiquewhite;
-    
-}
-
-body{
-
+text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
 
 * {
-    background-color: antiquewhite;
+    background-color: #bbddfa;
+
 }
 
-#titulo {
-    display: flex;
-    flex-direction: column;
-    color: rgb(0, 0, 0);
-    align-items: center;
-    background-color: #ee0808;
-    border-radius: 15px 15px 0 0;
-}
+body {
 
-#um {
-    background-color: #000000;
-    height: 20px;
-    width: 100%;
-    font-size: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: top;
-    display: flex;
-    align-items:center
-}
 
-#dois {
-    height: 80px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 0 0 15px 15px;
-}
+    * {
+        background-color: antiquewhite;
+    }
 
-#bola {
-    background-color: rgb(255, 255, 255);
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: 5px solid #000000;border: 5px solid
-}
+    #titulo {
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 0, 0);
+        align-items: center;
+        background-color: #ee0808;
+        border-radius: 15px 15px 0 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 
-#bola {
-    transform: translate(899px,-40px);
-}
+    #um {
+        background-color: #000000;
+        height: 20px;
+        width: 100%;
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: top;
+        display: flex;
+        align-items: center
+    }
 
+    #dois {
+        height: 80px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0 0 15px 15px;
+    }
+
+    #bola {
+        background-color: rgb(255, 255, 255);
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 5px solid #000000;
+        border: 5px solid
+    }
+
+    #bola {
+        transform: translate(47vw, -05vh);
+    }
+
+    #menu {
+        text-decoration: none;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        gap: 45px;
+        background-color: #bbddfa;
+
+
+    }
 
 
 
