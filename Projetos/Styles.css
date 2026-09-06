@@ -2,23 +2,12 @@
 
 * {
     background-color: #bbddfa;
-
 }
 
 
 body {
 
-
-    * {
-        background-color: antiquewhite;
-    }
-
-
     #poke {
-        background-color: #ee0808;
-    }
-
-    #mon {
         background-color: #ee0808;
     }
 
@@ -87,19 +76,11 @@ body {
             padding: 26px;
         }
 
-        #td.tabela{
-            align-items: center;
-            background-color: #1708ee;
-        }
-
-        #linha{
-            color: #ee0808;
-        }
-
-
     }
 
-
+    #td.tabela{
+        background-color: #ee0808;
+    }
 
 
 
