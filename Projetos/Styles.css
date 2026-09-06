@@ -87,6 +87,15 @@ body {
             padding: 26px;
         }
 
+        #td.tabela{
+            align-items: center;
+            background-color: #1708ee;
+        }
+
+        #linha{
+            color: #ee0808;
+        }
+
 
     }
 
