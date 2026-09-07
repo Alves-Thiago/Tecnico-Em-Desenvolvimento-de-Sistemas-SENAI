@@ -7,6 +7,8 @@
 
 body {
 
+    justify-content: center;
+
     #poke {
         background-color: #ee0808;
     }
@@ -78,11 +80,20 @@ body {
 
     }
 
-    #tabela{
-        background-color: #ee0808;
+    #tabelapokemon{
+        display: flex;
+        background-color: #bbddfa;
         align-items: center;
         justify-content: center;
     }
+
+    #linha{
+        color: #ee0808;
+        font-size: x-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    
 
 
 
