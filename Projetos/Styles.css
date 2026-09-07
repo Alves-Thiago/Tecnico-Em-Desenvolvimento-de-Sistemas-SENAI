@@ -78,8 +78,10 @@ body {
 
     }
 
-    #td.tabela{
+    #tabela{
         background-color: #ee0808;
+        align-items: center;
+        justify-content: center;
     }
 
 
