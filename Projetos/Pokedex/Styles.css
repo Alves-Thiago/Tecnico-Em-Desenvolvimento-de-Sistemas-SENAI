@@ -64,8 +64,12 @@ body {
         align-items: center;
         justify-content: center;
         gap: 30px;
-        background-color: #bbddfa;
-        margin: 10px;
+        margin: 10px;}
+    
+    #container > div:hover{
+        flex-grow: 3;
+        border-color: #ee0808;
+    }
 
 
         a {
@@ -109,6 +113,14 @@ body {
         box-shadow: 0px 12px 28px rgba(0, 0, 0, 1);
         transform: translateY(5px);
         transform: translateX(-5px);
+
+        flex: 1;
+        background-size: cover;
+        background-position: center;
+
+        transition: flex-grow .3s ease;
+
+
     }
 
 
