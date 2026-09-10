@@ -1,4 +1,122 @@
+* {
 
-body{
-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #64748b;
+}
+
+header {
+
+    background-color: rgb(217, 119, 6, .7);
+    opacity: 90%;
+
+    padding: 20px 60px;
+    height: 100px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center position: fixed;
+    z-index: 99;
+}
+
+#contato {
+
+    background-color: #fef3c7;
+    height: 100vw;
+    width: 100vw;
+    border-top: #d97706;
+}
+
+#nav-bar {
+
+    display: flex;
+    gap: 100px;
+
+    a {
+
+        font-size: 20px;
+        text-decoration: none;
+        color: #fcd34d;
+
+        transition: 0.2s;
+
+        &:hover {
+            background-color: #fef3c7;
+            color: #d97706;
+            border-radius: 16px;
+            padding: 14px;
+
+
+        }
+
+    }
+
+}
+
+.text-organize {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1 {
+        background-color: #fcd34d;
+        color: #451a03;
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        height: 50px;
+        background-color: #fef3c7;
+        color: #d97706;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+
+    p {
+
+        height: 100px;
+        width: 500;
+        background-color: #d97706;
+        color: #fde68a;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
+#container {
+
+height: 100vw;
+width: 100vw;    
+display: flex;
+justify-content: center;
+align-items: stretch;
+}
+
+#container > div {
+
+height: 100vw;
+width: 100vw;    
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1;
+background-size: cover;
+background-position: center;
+transition: flex-grow 0.3s e3ase;
 }
