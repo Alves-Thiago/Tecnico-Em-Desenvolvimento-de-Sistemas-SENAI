@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #64748b;
+}
+
+header {
+    background-color: rgb(217, 119, 6, .7);
+    opacity: 90%;
+
+    padding: 20px 60px;
+
+    height: 100px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+
+    z-index: 99;
+}
+
+#contato {
+    background-color: #fef3c7;
+    height: 100vh;
+    width: 100vw;
+    border-top: 8px solid #d97706;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 100px;
+
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #fcd34d;
+        
+        transition: .2s;
+        
+        &:hover {
+            background-color: #fef3c7;
+            color: #d97706;
+            border-radius: 16px;
+            padding: 14px;
+        }
+    }
+}
+
+.text-organize {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    h1 {
+
+        background-color: #fcd34d;
+        color: #451a03;
+        font-size: 50px;
+        margin-bottom: 40px;
+        
+    }
+    h3 {
+
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+
+        height: 50px;
+        
+        background-color: #fef3c7;
+        color: #d97706;
+        font-size: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 40px;
+
+        padding: 20px;
+    }
+    p {
+        height: 100px;
+        width: 500px;
+        
+        background-color: #d97706;
+        color: #fde68a;
+        font-size: 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 20px;
+    }
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+
+    transition: flex-grow .3s ease;
+}
+
+#container > div:hover {
+    flex-grow: 3;
+
+    padding: 50px;
+
+    .text-organize {
+            display: flex;
+        }
+}
+
+#div-um {
+    background-image: url(assets/lanche-um.jpg);
+}
+
+#div-dois {
+    background-image: url(assets/lanche-dois.jpg);
+
+    flex-shrink: 3;
+}
+
+#div-tres {
+    background-image: url(assets/lanche-tres.jpg);
+}
+
+#div-quatro {
+    background-image: url(assets/lanche-quatro.jpg);
+}
+
+#div-cinco {
+    background-image: url(assets/lanche-cinco.jpg);
+}
