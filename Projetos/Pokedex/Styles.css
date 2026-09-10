@@ -63,14 +63,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
-        margin: 10px;}
-    
-    #container > div:hover{
-        flex-grow: 3;
-        border-color: #ee0808;
+        gap: 0px;
+        margin: 0px;
     }
-
+    
 
         a {
             text-decoration: none;
@@ -78,11 +74,11 @@ body {
             background-color: #bbddfa;
             color: #000000;
             border-radius: 0px;
-            gap: 50px;
-            padding: 26px;
+            padding: 4vw;
+            border: 3px solid;
+            display: flex;
         }
 
-    }
 
     #tabelapokemon{
         display: flex;
@@ -123,7 +119,12 @@ body {
 
     }
 
-
+    #inicio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vw;
+    }
 
 
 
