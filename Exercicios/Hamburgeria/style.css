@@ -19,14 +19,16 @@ header {
     width: 100vw;
 
     display: flex;
-    justify-content: center position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
     z-index: 99;
 }
 
 #contato {
 
     background-color: #fef3c7;
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
     border-top: #d97706;
 }
@@ -42,7 +44,7 @@ header {
         text-decoration: none;
         color: #fcd34d;
 
-        transition: 0.2s;
+        transition: 2s;
 
         &:hover {
             background-color: #fef3c7;
@@ -101,22 +103,52 @@ header {
 
 #container {
 
-height: 100vw;
-width: 100vw;    
-display: flex;
-justify-content: center;
-align-items: stretch;
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 
-#container > div {
+#container>div {
 
-height: 100vw;
-width: 100vw;    
-display: flex;
-justify-content: center;
-align-items: center;
-flex: 1;
-background-size: cover;
-background-position: center;
-transition: flex-grow 0.3s e3ase;
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    transition: flex-grow 0.3s e3ase;
+}
+
+#container>div:hover {
+    flex-grow: 3;
+    padding: 50px;
+
+    .text-organize {
+        display: flex;
+    }
+}
+
+#div-um {
+    background-image: url(assets/hamburger.jpg);
+}
+
+#div-dois {
+    background-image: url(assets/hotdog.jpg);
+    flex-shrink: 3;
+}
+
+#div-tres {
+    background-image: url(assets/casa.jpg);
+}
+
+#div-quatro {
+    background-image: url(assets/batata.jpg);
+}
+
+#div-cinco {
+    background-image: url(assets/cebola.jpg);
 }
