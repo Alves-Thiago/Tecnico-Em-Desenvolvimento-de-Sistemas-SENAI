@@ -113,3 +113,118 @@ body {
   #menu a { flex: 1 1 130px; padding: .5rem .65rem; }
   .conteudo { width: calc(100% - 2rem); margin-top: 1.5rem; }
 }
+
+#kanto-um {
+    background-image: url(assets/wallpaper01.jpg);
+}
+
+#kanto-dois {
+    background-image: url(assets/wallpaper02.jpg);
+    flex-shrink: 3;
+}
+
+#kanto-tres {
+    background-image: url(assets/wallpaper03.jpg);
+}
+
+#kanto-quatro {
+    background-image: url(assets/wallpaper04.jpg);
+}
+
+#kanto-cinco {
+    background-image: url(assets/wallpaper05.jpg);
+}
+
+#kanto-seis {
+    background-image: url(assets/wallpaper06.jpg);
+}
+
+#kanto-sete {
+    background-image: url(assets/wallpaper07.jpg);
+    flex-shrink: 3;
+}
+
+#kanto-oito {
+    background-image: url(assets/wallpaper08.jpg);
+}
+
+#kanto-nove {
+    background-image: url(assets/wallpaper09.jpg);
+}
+
+#kanto-dez {
+    background-image: url(assets/wallpaper10.png);
+}
+
+.text-organize {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1 {
+        background-color: #fcd34d;
+        color: #451a03;
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        height: 50px;
+        background-color: #fef3c7;
+        color: #d97706;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+
+    p {
+
+        height: 100px;
+        width: 500;
+        background-color: #d97706;
+        color: #fde68a;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
+#container {
+
+    height: 80vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#container>div {
+
+    height: 60vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    transition: flex-grow 0.8s ease;
+}
+
+#container>div:hover {
+    flex-grow: 3;
+    padding: 50px;
+
+    .text-organize {
+        display: flex;
+    }
+}
