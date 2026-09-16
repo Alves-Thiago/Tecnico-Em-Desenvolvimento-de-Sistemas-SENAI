@@ -1,22 +1,101 @@
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
     padding: 0px;
     margin: 0px;
     background-color: #071426;
 }
+    #logo{
+        display: flex;
+        margin-top: 10px;
+        padding-left: 1px ;
+        border: red solid 2px;
+        width: 80;
+        height: 85px;
+        text-align: center;
+    }
+    
+    #texto-logo1{
+        color: white;
+        margin-left: 35px;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        
+    }
+    
+    #texto-logo2{
+        font-family: "Luckiest Guy", cursive;
+        color: red;
+        margin-left: 20px;
+        font-weight: 400;
+        font-style: normal;
+    }
 
-body{
+    #texto-logo3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        margin-left: 10px;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    #pokebola-vermelha img{
+        border: green solid 2px;
+        width: 80px;
+        height: 80px;
 
+    }
+    
+    #texto-logo{
+        border: rgb(253, 253, 253) solid 2px;
+        width: 330px;
+        height: 40px;
+        display: flex;
 
+    }
 
-
-
-
-
-#rodape{
+    #slogan{
+        border: blueviolet solid 2px;
+        width: 330px;
+        height: 36px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #rodape{
     display: flex;
     align-items: center;
     color: white;
-}
+    font-size: 10px;
+    text-align: right;
+    justify-content: center;
 
-
+    #pokebola-azul{
+        width: 30px;
+        height: 30px;
+    }
 }
