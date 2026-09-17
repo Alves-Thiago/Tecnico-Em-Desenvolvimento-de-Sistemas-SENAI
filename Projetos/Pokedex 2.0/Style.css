@@ -21,9 +21,10 @@
     
     #texto-logo1{
         color: white;
-        margin-left: 35px;
+        margin-left: 1px;
         font-family: "Luckiest Guy", cursive;
         font-weight: 400;
+        font-size: 43px;
         font-style: normal;
         text-align: center;
         
@@ -32,8 +33,9 @@
     #texto-logo2{
         font-family: "Luckiest Guy", cursive;
         color: red;
-        margin-left: 20px;
+        margin-left: 15px;
         font-weight: 400;
+        font-size: 43px;
         font-style: normal;
     }
 
@@ -42,7 +44,7 @@
         color: white;
         margin-left: 10px;
         font-weight: 400;
-        font-style: normal;
+        font-style: 15px;
     }
     
     #pokebola-vermelha img{
@@ -90,14 +92,14 @@
         color: rgb(255, 255, 255);
         font-family: "Luckiest Guy", cursive;
         text-decoration: none;
+        
     }
     
-    #navbar a:hover,
-    #navbar a:focus-visible{
-        background-color: #122A47;
-        color: rgb(18, 42, 71);
+    #in:hover{
+        color: red;
+        
     }
-
+    
     
     
     
@@ -113,12 +115,14 @@
     
     
     #rodape{
+    border-color: aliceblue solid 2px;
     display: flex;
     align-items: center;
     color: white;
     font-size: 10px;
     text-align: right;
     justify-content: center;
+    
 
     #pokebola-azul{
         width: 30px;
