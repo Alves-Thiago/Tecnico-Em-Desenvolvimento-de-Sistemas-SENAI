@@ -76,6 +76,7 @@
     
     #navbar{
         border: orange solid 2px;
+        display: flex;
         color: white;
     }
     
