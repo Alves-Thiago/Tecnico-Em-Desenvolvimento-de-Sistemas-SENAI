@@ -14,7 +14,7 @@
         margin-top: 10px;
         padding-left: 1px ;
         border: red solid 2px;
-        width: 80;
+        width: 420px;
         height: 85px;
         text-align: center;
     }
@@ -69,8 +69,15 @@
         display: flex;
     }
     
+    #topo{
+        display: flex;
+        border: yellow solid;
+    }
     
-    
+    #navbar{
+        border: orange solid 2px;
+        color: white;
+    }
     
     
     
