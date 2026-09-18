@@ -1,7 +1,7 @@
 .luckiest-guy-regular {
-  font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 * {
@@ -9,112 +9,114 @@
     margin: 0px;
     background-color: #071426;
 }
-    #logo{
-        display: flex;
-        margin-top: 10px;
-        padding-left: 1px ;
-        border: red solid 2px;
-        width: 420px;
-        height: 85px;
-        text-align: center;
-    }
-    
-    #texto-logo1{
-        color: white;
-        margin-left: 1px;
-        font-family: "Luckiest Guy", cursive;
-        font-weight: 400;
-        font-size: 43px;
-        font-style: normal;
-        text-align: center;
-        
-    }
-    
-    #texto-logo2{
-        font-family: "Luckiest Guy", cursive;
-        color: red;
-        margin-left: 15px;
-        font-weight: 400;
-        font-size: 43px;
-        font-style: normal;
-    }
 
-    #texto-logo3{
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: white;
-        margin-left: 10px;
-        font-weight: 400;
-        font-style: 15px;
-    }
-    
-    #pokebola-vermelha img{
-        border: green solid 2px;
-        width: 80px;
-        height: 80px;
+#logo {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 1px;
+    /**border: red solid 2px;*/
+    width: 420px;
+    height: 85px;
+    text-align: center;
+}
 
-    }
-    
-    #texto-logo{
-        border: rgb(253, 253, 253) solid 2px;
-        width: 330px;
-        height: 40px;
-        display: flex;
+#texto-logo1 {
+    color: white;
+    margin-left: 1px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 43px;
+    font-style: normal;
+    text-align: center;
 
-    }
+}
 
-    #slogan{
-        border: blueviolet solid 2px;
-        width: 330px;
-        height: 36px;
-        text-align: center;
-        align-items: center;
-        display: flex;
-    }
-    
-    #topo{
-        display: flex;
-        border: yellow solid;
-    }
-    
-    #navbar{
-        border: orange solid 2px;
-        width: 85vw;
-        height: 85;
-        display: flex;
-        align-items: center;
-        font-size: larger;
-        padding: 35px;
-        justify-content: left;
-        gap: 4rem;
-    }
+#texto-logo2 {
+    font-family: "Luckiest Guy", cursive;
+    color: red;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 43px;
+    font-style: normal;
+}
 
-    #navbar a {
-        color: rgb(255, 255, 255);
-        font-family: "Luckiest Guy", cursive;
-        text-decoration: none;
-        
-    }
-    
-    #in:hover{
-        color: red;
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    #rodape{
+#texto-logo3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-left: 10px;
+    font-weight: 400;
+    font-style: 15px;
+}
+
+#pokebola-vermelha img {
+    /**border: green solid 2px;*/
+    width: 80px;
+    height: 80px;
+
+}
+
+#texto-logo {
+    /**border: rgb(253, 253, 253) solid 2px;*/
+    width: 330px;
+    height: 40px;
+    display: flex;
+
+}
+
+#slogan {
+    /**border: blueviolet solid 2px;*/
+    width: 330px;
+    height: 36px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#topo {
+    display: flex;
+    /**border: yellow solid;*/
+}
+
+#navbar {
+    /**border: orange solid 2px;*/
+    width: 85vw;
+    height: 85;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 35px;
+    justify-content: left;
+    gap: 4rem;
+    margin-left: 65px;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+    font-family: "Luckiest Guy", cursive;
+    text-decoration: none;
+
+}
+
+#in:hover {
+    color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rodape {
     border-color: aliceblue solid 2px;
     display: flex;
     align-items: center;
@@ -122,9 +124,9 @@
     font-size: 10px;
     text-align: right;
     justify-content: center;
-    
 
-    #pokebola-azul{
+
+    #pokebola-azul {
         width: 30px;
         height: 30px;
     }
