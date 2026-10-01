@@ -21,48 +21,105 @@ h1 {
     width: 180px;
     min-height: 220px;
 
-    background-color: rgb(222, 238, 219);
-    background-size: 150px;
-    background-repeat: no-repeat;
-    background-position: center 35px;
-
     position: relative;
     padding-top: 10px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
+.pokemon:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 15px rgba(0, 0, 0, 0.35);
+}
+
+/* Nome do Pokémon */
 .pokemon-name {
     font-weight: bold;
     font-size: 18px;
+
     text-transform: capitalize;
+
+    position: relative;
+    z-index: 3;
+
+    color: #222;
+
+    margin-bottom: 2px;
 }
 
+/* Número */
 .pokemon-number {
-    color: #555;
+    color: #444;
+    background-color: rgba(255, 255, 255, 0.90);
+    position: relative;
+    z-index: 3;
+
+    font-size: 14px;
 }
 
+/* Imagem */
+.pokemon-image {
+    width: 150px;
+    height: 150px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: 5px auto 0;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Área dos tipos */
 .pokemon-type {
     position: absolute;
-    bottom: 15px;
+
+    bottom: 0;
     left: 0;
     right: 0;
+
     font-weight: bold;
+
     text-transform: capitalize;
-    background-color: #ffffff;
+
+    background-color: rgba(255, 255, 255, 0.90);
+
+    padding: 10px 5px;
+
+    z-index: 4;
+
+    color: #222;
 }
 
+/* Botão */
 #loadMore {
     margin: 30px;
+
     padding: 12px 25px;
+
     border: none;
+
     border-radius: 8px;
+
     background-color: #e3350d;
+
     color: white;
+
     font-size: 16px;
+
     cursor: pointer;
 }
 
 #loadMore:hover {
     background-color: #b82a09;
 }
-
-
