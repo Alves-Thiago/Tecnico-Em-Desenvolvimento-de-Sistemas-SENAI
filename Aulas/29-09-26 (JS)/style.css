@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #4c759e;
+    border-color: blueviolet solid 5px;
+}
+
+#barra-navegacao{
+    display: flex;
+    width: 100vw;
+    height: 95px;
+    border-color: blueviolet solid 5px;
+    margin-top: 30px;
+    padding: 8px;
+    
+}
+
+#logo{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    justify-content: end;
+}
+
+#nome-site{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 10px;
+    color: #000000;
+}
+
+.caixaBusca{
+display: flex;
+border: #071426 solid 2px;
+border-radius: 20px;
+padding: 5px 40px;
+width: 120px;
+background-color: rgb(255, 255, 255);
+margin-top: 30px;
+margin-bottom: 25px;
+margin-left: 65px;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+    <h3>
+        <p>Formulário para registro de novos animes.</p>
+    </h3>
+</head>
+
+<body>
+    <form>
+
+        <label for="nome">Nome do Anime:</label>
+        <input type="text" placeholder="Digite o nome do anime." required />
+        <br />
+        <br />
+
+        <label for="sexo">Classificação de Idade:</label>
+        <br />
+        <input type="radio" name="sexo" id="masculino" value="masculino" />
+        <label for="masculino">Livre</label>
+        <br />
+        <input type="radio" name="sexo" id="feminino" value="feminino" />
+        <label for="feminino">Maiores de 10 anos</label>
+        <br />
+        <input type="radio" name="sexo" id="indefinido" value="indefinido" />
+        <label for="indefinido">Maiores de 16 anos</label>
+        <br />
+        <input type="radio" name="sexo" id="indefinido" value="indefinido" />
+        <label for="indefinido">Maiores de 18 anos</label>
+        <br />
+        <input type="radio" name="sexo" id="indefinido" value="indefinido" />
+        <label for="indefinido">Maiores de 60 anos</label>
+        <br />
+        <br />
+
+        <label for="natureza">Nota do Anime:</label>
+        <select name="natureza" id="natureza" required>
+            <option value="">Nota do Anime</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br />
+        <br />
+
+        <input type="submit" value="Cadastrar Anime" />
+        <br />
+        <br />
+        </div>
+        <script></script>
+    </form>
+</body>
+
+</html>
