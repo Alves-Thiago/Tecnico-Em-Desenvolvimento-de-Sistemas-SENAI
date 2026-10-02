@@ -7,7 +7,7 @@ const loadMoreButton =
     document.getElementById("loadMore");
 
 let page = 0;
-let limit = 9;
+let limit = 27;
 
 const typeColors = {
 
@@ -125,7 +125,7 @@ async function getPokemon(url) {
 
             background =
                 `linear-gradient(
-                    135deg,
+                    128deg,
                     ${color1} 0%,
                     ${color1} 50%,
                     ${color2} 50%,
